@@ -3,3 +3,8 @@
 
 .env*
 !.env.example*
+
+
+.flaskenv*
+!.env.project
+!.env.vault

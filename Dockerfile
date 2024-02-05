@@ -12,6 +12,4 @@ add package*.json .
 run npm install --omit=dev
 copy --from=build /home/node/app/dist ./dist
 
-add .env .
-
 cmd ["node", "./dist/index.js"]
